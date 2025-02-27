@@ -1,10 +1,10 @@
 #[derive(Debug)]
 enum Message {
     // TODO: Define a few types of messages as used below.
-    Resize(u32, u32),
-    Move(i32, i32),
-    Echo(String),
-    ChangeColor(u8, u8, u8),
+    Resize,
+    Move,
+    Echo,
+    ChangeColor,
     Quit,
 }
 
